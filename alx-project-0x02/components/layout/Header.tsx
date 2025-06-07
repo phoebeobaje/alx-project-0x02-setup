@@ -6,9 +6,8 @@ const Header: React.FC = () => {
         <h1 className="text-2xl font-bold">Welcome to Our Listing App</h1>
         <nav>
             <ul className="flex space-x-4">
-            <Link href="/" className="hover:underline">Home</Link>
+            <Link href="/home" className="hover:underline">Home</Link>
             <Link href="/about" className="hover:underline">About</Link>
-            <Link href="/contact" className="hover:underline">Contact</Link>
             </ul>
         </nav>
         </header>
