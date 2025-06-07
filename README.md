@@ -1,1 +1,1 @@
-# alx-project-0x02-setup
+# NextJS Project Setup and Basics
