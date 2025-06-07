@@ -1,8 +1,4 @@
-export const CardProps = {
-    id: String,
-    title: String,
-    description: String,
-    imageUrl: String,
-    price: Number,
-    location: String,
+export interface CardProps {
+    title: string;
+    content: string;
 }
