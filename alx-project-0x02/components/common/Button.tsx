@@ -1,7 +1,7 @@
 import React from 'react';
 import type { ButtonProps } from '@/interfaces';
 
-const Button = ({ size = 'medium', shape = 'rounded-md', children }: ButtonProps) => {
+const Button: React.FC <ButtonProps> = ({ size = 'medium', shape = 'rounded-md', children }) => {
   const sizeClass =
     size === 'small' ? 'px-3 py-1 text-sm' :
     size === 'large' ? 'px-5 py-3 text-lg' :
