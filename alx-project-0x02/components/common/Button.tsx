@@ -1,7 +1,7 @@
 import React from 'react';
-import { ButtonProps } from '@/interfaces';
+import type { ButtonProps } from '@/interfaces';
 
-export const Button = ({ size = 'medium', shape = 'rounded-md', children }: ButtonProps) => {
+const Button = ({ size = 'medium', shape = 'rounded-md', children }: ButtonProps) => {
   const sizeClass =
     size === 'small' ? 'px-3 py-1 text-sm' :
     size === 'large' ? 'px-5 py-3 text-lg' :
@@ -13,3 +13,4 @@ export const Button = ({ size = 'medium', shape = 'rounded-md', children }: Butt
     </button>
   );
 };
+export default Button;
